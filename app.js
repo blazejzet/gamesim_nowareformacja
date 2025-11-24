@@ -35,7 +35,7 @@ function shuffleInPlace(arr, rng = Math.random) {
 function cardImagePath(card) {
   const level = toNumber(card.level, 1);
   const stem = (card.id || "").replace(/\.json$/i, "");
-  return `../CARDS/${level}/${stem}.svg`;
+  return `../CARDS/${level}/${stem}.jpg`;
 }
 
 const iconMap = {
